@@ -20,8 +20,16 @@
     <h3>Par <em>Christian Pirker</em></h3>
 
     <div class="boutons">
-      <p class="bouton"> Ajouter à la liste lus</p>
-      <p class="bouton"> Ajouter à la liste à lire</p>
+
+      <div>
+        <p class="bouton"> Ajouter à la liste lus</p>
+      </div>
+
+
+      <div>
+        <p class="bouton"> Ajouter à la liste à lire</p>
+      </div>
+
     </div>
 
   </div>
@@ -60,78 +68,9 @@
   <div class="livre-légende">
 
     <p>Année de publication: 2008</p>
-    <p>Genre(s): Livre photo</p>
-
+    <div class="genre">
+      <p>Genre(s):</p>
+      <div class="soulignement"> Livre photo</div>
+      </p>
+    </div>
   </div>
-
-
-
-
-  <h4>Commentaires</h4>
-  <img src="img/sarah 1.png" alt="sarah photo de profil">
-  <p>Ajouter un commentaire</p>
-  <img src="img/Andrea.png" alt="Andrea photo de profil">
-
-
-  Andrea Iacoviello
-  <p>Excellent livre ! Je le recommande.</p>
-  <p>Répondre</p>
-  <img src="img/Paula Melo.png" alt="Paula photo de profil">
-
-
-  <p>Paula Melo</p>
-  <p>Super intéressant !!! J’ai surtout adoré la partie ou Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Répondre</p>
-  <img src="img/Martha.png" alt="Martha photo de profil">
-
-
-  <p>Martha Coelho</p>
-  <p>Pas mal.</p>
-  <p>Répondre</p>
-  <p>Voir plus</p>
-  <img src="img/navigation.png" alt="navigation" class="navigation">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- 🦊 Votre page ici -->
-
-  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-  <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-  <!-- 💡 Script pour gérer le rating d'un livre -->
-  <script src="scripts/star-rating.min.js"></script>
-  <script>
-    var stars = new StarRating(".star-rating", {
-      tooltip: "Choisissez votre note",
-    });
-  </script>
-</body>
-
-</html>

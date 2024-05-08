@@ -43,6 +43,8 @@ h2 {
   width: 232px;
   color: #FFF;
   text-align: center;
+
+
 }
 
 .étoile-note {
@@ -72,10 +74,20 @@ h4 {
 }
 
 
+.soulignement {
+  text-decoration-line: underline;
+  color: #D7A060;
+}
 
+.genre {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
-
-
+.genre p {
+  margin: 0;
+}
 
 .navigation {
   align-self: center;
