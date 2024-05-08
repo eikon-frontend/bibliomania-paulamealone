@@ -1,15 +1,94 @@
 /* 💡 Configuration des styles du sélecteur de note */
-:root {
-  --gl-star-empty: url(../img/star-empty.svg);
-  --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 24px;
-  --gl-tooltip-border-radius: 4px;
-  --gl-tooltip-font-size: 0.875rem;
-  --gl-tooltip-font-weight: 400;
-  --gl-tooltip-line-height: 1;
-  --gl-tooltip-margin: 12px;
-  --gl-tooltip-padding: 0.5em 1em;
-  --gl-tooltip-size: 6px;
+
+body {
+  background-color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 🦊 Vos styles ici */
+h1 {
+  text-align: right;
+}
+
+.cover {
+  width: 180px;
+  height: 241px;
+
+}
+
+.groupe-cover {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center
+}
+
+.boutons {
+  margin: 10px 0px 0px 0px;
+}
+
+.bouton {
+
+  margin: 10px 0px;
+  background-color: #E6BB89;
+  border: 2px solid #E6BB89;
+  border-radius: 7px;
+  padding: 10px 20px;
+  width: 232px;
+  color: #FFF;
+  text-align: center;
+
+
+}
+
+.étoile-note {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.texte.Description {
+  font-size: 16px;
+}
+
+.livre-légende {
+  width: 229px;
+}
+
+
+.soulignement {
+  text-decoration-line: underline;
+  color: #D7A060;
+}
+
+.genre {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.genre p {
+  margin: 0;
+}
+
+.navigation {
+  align-self: center;
+}

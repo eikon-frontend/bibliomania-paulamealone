@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1>Détails du livre</h1>
+
+
+  <div class="groupe-cover"> <img src="img/controverses_couverture.jpg" alt="livre controverses" class="cover">
+
+    <h2>Controverses, une histoire juridique <br />et éthique de la photographie</h2>
+
+    <h3>Par <em>Christian Pirker</em></h3>
+
+    <div class="boutons">
+
+      <div>
+        <p class="bouton"> Ajouter à la liste lus</p>
+      </div>
+
+
+      <div>
+        <p class="bouton"> Ajouter à la liste à lire</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <div class="étoile-note">
+
+
+    <div class="etoile-noir">
+      <img src="img/etoile-noir.png" alt="etoile-noir">
+      <p>4.5/5</p>
+    </div>
+
+
+    <div class="etoile-jaune">
+      <img src="img/etoiles.png" alt="etoiles">
+      <p>Evaluer</p>
+    </div>
+
+
+  </div>
+
+
+  <h4>Description</h4>
+  <p class="texte.Description">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+    ut labore et dolore
+    magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+  </p>
+
+
+
+  <div class="livre-légende">
+
+    <p>Année de publication: 2008</p>
+    <div class="genre">
+      <p>Genre(s):</p>
+      <div class="soulignement"> Livre photo</div>
+      </p>
+    </div>
+  </div>
